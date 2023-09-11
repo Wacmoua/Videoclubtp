@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    height: 100px; /* Hauteur de l'en-tête */
+    
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+aside {
+    position: fixed; /* Garde l'élément à une position fixe */
+    top: 20; /* Place l'élément en haut de la page */
+    left: 5; /* Place l'élément à gauche de la page */
+    width: 250px; /* Définissez la largeur de l'élément selon vos besoins */
+    height: 100%; /* Remplit la hauteur de la fenêtre */
+    background-color: #f0f0f0; /* Couleur de fond pour l'élément aside */
+    overflow-y: auto; /* Ajoute une barre de défilement si nécessaire */
+}
+
+/* Styles pour le contenu principal */
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 240px; /* Laissez de l'espace à gauche pour l'élément aside */
+    padding: 20px; /* Ajoutez un espace autour du contenu principal */
+}
+
+
+
+.date {
+    float: right;
+    margin-right: 20px;
+}
+
+.admin {
+    text-decoration: underline;
+    margin: 20px;
+}
+
+nav {
+    background-color: #ee8700;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+button {
+    display: flex;
+    width: 25vw;
+    padding: 20px;
+    color: #fff;
+    background-color: #333;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: #eee;
+}
+
+section {
+    width: 20vw;
+    padding: 20px;
+    color: #fff;
+    background-color: #333;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section:hover {
+    color: black;
+    background-color: #eee;
+}
+.buttonretour a {
+    align-items: end;
+}
+#reservation-table {
+    display: none;
+    width: 20vw;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#reservation-table th,
+#reservation-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#reservation-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+#reservation-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#reservation-table tr:hover {
+    background-color: #ddd;
+}
