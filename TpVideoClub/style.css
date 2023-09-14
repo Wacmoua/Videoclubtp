@@ -1,0 +1,89 @@
+body {
+  padding: 0;
+}
+
+#header {
+  background-color: #f4f4f4;
+  color: blue;
+  text-align: center;
+}
+
+#titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: blue;
+  padding: 10px;
+}
+
+#titleText {
+  margin-left: 20px;
+}
+
+#sidebar {
+  display: flex;
+  margin-right: 30%;
+}
+
+.listeMenu {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.sidebarContenu {
+  display: flex;
+}
+
+.content {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.connexion {
+  color: blue;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.connexion span,
+.connexion input {
+  color: blue;
+  margin: 0.5em;
+}
+
+.buttons {
+  text-align: center;
+}
+
+table {
+  border: 1px solid blue;
+  margin-bottom: 25px;
+}
+
+th {
+  border: 1px solid blue;
+  background-color: lightgray;
+  color: blue;
+  padding: 5px;
+}
+
+td {
+  border: 1px solid blue;
+  text-align: center;
+}
+
+.adminContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(110, 199, 194);
+}
+
+.bodyAdmin {
+  background-color: rgb(110, 199, 194);
+}
